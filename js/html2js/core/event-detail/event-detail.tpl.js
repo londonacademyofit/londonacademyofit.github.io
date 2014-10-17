@@ -22,6 +22,22 @@ module.run(['$templateCache', function($templateCache) {
     '			<h3>on {{ event.date }} at {{ event.time }}.</h3>\n' +
     '			\n' +
     '			<p>{{ event.description }}</p>\n' +
+    '\n' +
+    '			<h3>Attendees</h3>\n' +
+    '				\n' +
+    '			<ul>\n' +
+    '				<li ng-repeat="user in invitedList">\n' +
+    '					{{ user.displayName }} <a href="" ng-click="uninviteUser(user);">Uninvite?</a>\n' +
+    '				</li>\n' +
+    '			</ul>\n' +
+    '\n' +
+    '			<h3>Invite Friends</h3>\n' +
+    '				\n' +
+    '			<ul>\n' +
+    '				<li ng-repeat="user in uninvitedList">\n' +
+    '					{{ user.displayName }} <a href="" ng-click="inviteUser(user);">Invite?</a>\n' +
+    '				</li>\n' +
+    '			</ul>\n' +
     '		\n' +
     '		</div>\n' +
     '\n' +
