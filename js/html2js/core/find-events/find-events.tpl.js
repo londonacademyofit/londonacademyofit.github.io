@@ -26,6 +26,8 @@ module.run(['$templateCache', function($templateCache) {
     '\n' +
     '	</div>\n' +
     '\n' +
-    '</div>');
+    '</div>\n' +
+    '\n' +
+    '');
 }]);
 })();

@@ -1332,7 +1332,7 @@ nav ul li {
  * HOMEPAGE
  */
 .logged-out {
-  background: url(img/partycrowd-red.jpg) no-repeat;
+  background: url(img/partycrowd.jpg) no-repeat;
   background-size: cover;
   border-radius: 2px;
   color: #FFFFFF;
